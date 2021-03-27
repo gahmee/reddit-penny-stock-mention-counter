@@ -46,3 +46,5 @@ mentions_sorted = sorted(mentions.items(), key=lambda x: x[1], reverse=True) #
 #print the tickers and mentions
 for key, value in mentions_sorted:
     print(key, value)
+
+
